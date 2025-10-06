@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Метадані та підключення стилів і шрифтів -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Основний CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+      <div class="container">
+        <!-- Навігація -->
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">
+            Web<span class="header-logo-italik">Studio</span>
+          </a>
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a class="header-menu-links current" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-links" href="">Portfolio</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-links" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Контакти -->
+        <address class="header-address">
+          <ul class="header-address-navigation">
+            <li class="header-adress-item">
+              <a class="header-address-links" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-adress-item">
+              <a class="header-address-links" href="tel:+110001111111"
+                >+11 (000) 11-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main class="hero">
+      <!-- Головний секшн -->
+      <section class="main-section">
+        <div class="container main-container">
+          <h1 class="title-effective-solutions">
+            Effective Solutions for Your Business
+          </h1>
+          <button class="order-service" type="button">Order Service</button>
+        </div>
+      </section>
+
+      <!-- Секція переваг -->
+      <section class="advantages">
+        <div class="container advant">
+          <h2 class="advantages-title">our advantages</h2>
+          <ul class="advantages-list">
+            <!-- Перевага 1 -->
+            <li class="advantages-item">
+              <div class="icon-box">
+                <svg class="advantages-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="advantages-item-title">Strategy</h3>
+              <p class="advantages-item-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+
+            <!-- Перевага 2 -->
+            <li class="advantages-item">
+              <div class="icon-box">
+                <svg class="advantages-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="advantages-item-title">Punctuality</h3>
+              <p class="advantages-item-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+
+            <!-- Перевага 3 -->
+            <li class="advantages-item">
+              <div class="icon-box">
+                <svg class="advantages-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="advantages-item-title">Diligence</h3>
+              <p class="advantages-item-text">
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+
+            <!-- Перевага 4 -->
+            <li class="advantages-item">
+              <div class="icon-box">
+                <svg class="advantages-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="advantages-item-title">Technologies</h3>
+              <p class="advantages-item-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ================= OUR TEAM ================= -->
+      <section class="our-team">
+        <div class="container our-team-container">
+          <!-- Заголовок секції -->
+          <h2 class="our-team-title">Our Team</h2>
+
+          <ul class="our-team-list">
+            <!-- ================= TEAM MEMBER 1 ================= -->
+            <li class="our-team-item">
+              <img
+                class="our-team-img"
+                src="./images/photo_goit_1.jpg"
+                alt="Men with beard"
+                width="264"
+                height="260"
+              />
+              <div class="our-team-info">
+                <h3 class="our-team-item-title">Mark Guerrero</h3>
+                <p class="our-team-item-text">Product Designer</p>
+
+                <!-- Соціальні мережі -->
+                <ul class="social-list-team">
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- ================= TEAM MEMBER 2 ================= -->
+            <li class="our-team-item">
+              <img
+                class="our-team-img"
+                src="./images/photo_goit-2.jpg"
+                alt="Happy Man"
+                width="264"
+                height="260"
+              />
+              <div class="our-team-info">
+                <h3 class="our-team-item-title">Tom Ford</h3>
+                <p class="our-team-item-text">Frontend Developer</p>
+
+                <!-- Соціальні мережі -->
+                <ul class="social-list-team">
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- ================= TEAM MEMBER 3 ================= -->
+            <li class="our-team-item">
+              <img
+                class="our-team-img"
+                src="./images/photo_goit-3.jpg"
+                alt="Woman in a pink sweater"
+                width="264"
+                height="260"
+              />
+              <div class="our-team-info">
+                <h3 class="our-team-item-title">Camila Garcia</h3>
+                <p class="our-team-item-text">Marketing</p>
+
+                <!-- Соціальні мережі -->
+                <ul class="social-list-team">
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- ================= TEAM MEMBER 4 ================= -->
+            <li class="our-team-item">
+              <img
+                class="our-team-img"
+                src="./images/photo_goit-4.jpg"
+                alt="Man in gray T-shirt"
+                width="264"
+                height="260"
+              />
+              <div class="our-team-info">
+                <h3 class="our-team-item-title">Daniel Wilson</h3>
+                <p class="our-team-item-text">UI Designer</p>
+
+                <!-- Соціальні мережі -->
+                <ul class="social-list-team">
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-items-team">
+                    <a href="#" class="social-link-card">
+                      <svg class="team-links-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ================= PORTFOLIO ================= -->
+      <section id="portfolio" class="portfolio">
+        <div class="container portfolio-container">
+          <!-- Заголовок секції -->
+          <h2 class="portfolio-title">Our Portfolio</h2>
+
+          <ul class="portfolio-list">
+            <!-- ================= PORTFOLIO ITEM 1 ================= -->
+            <li class="portfolio-item">
+              <div class="portfolio-jump">
+                <img
+                  class="portfolio-img"
+                  src="./images/hw2-portfolio-1photo.jpg"
+                  alt="Banking App"
+                  width="360"
+                  height="300"
+                />
+                <p class="jump-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">Banking App</h3>
+                <p class="portfolio-item-text">App</p>
+              </div>
+            </li>
+
+            <!-- ================= PORTFOLIO ITEM 2 ================= -->
+            <li class="portfolio-item">
+              <div class="portfolio-jump">
+                <img
+                  class="portfolio-img"
+                  src="./images/hw2-portfolio-2photo.jpg"
+                  alt="Cashless Payment"
+                  width="360"
+                  height="300"
+                />
+                <p class="jump-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">Cashless Payment</h3>
+                <p class="portfolio-item-text">Marketing</p>
+              </div>
+            </li>
+
+            <!-- ================= PORTFOLIO ITEM 3 ================= -->
+            <li class="portfolio-item">
+              <div class="portfolio-jump">
+                <img
+                  class="portfolio-img"
+                  src="./images/hw2-portfolio-3photo.jpg"
+                  alt="Meditation App"
+                  width="360"
+                  height="300"
+                />
+                <p class="jump-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">Meditation App</h3>
+                <p class="portfolio-item-text">App</p>
+              </div>
+            </li>
+
+            <!-- ================= PORTFOLIO ITEM 4 ================= -->
+            <li class="portfolio-item">
+              <div class="portfolio-jump">
+                <img
+                  class="portfolio-img"
+                  src="./images/hw2-portfolio-4photo.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                  height="300"
+                />
+                <p class="jump-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">Taxi Service</h3>
+                <p class="portfolio-item-text">Marketing</p>
+              </div>
+            </li>
+
+            <!-- ================= PORTFOLIO ITEM 5 ================= -->
+            <li class="portfolio-item">
+              <div class="portfolio-jump">
+                <img
+                  class="portfolio-img"
+                  src="./images/hw2-portfolio-5photo.jpg"
+                  alt="Screen Illustrations"
+                  width="360"
+                  height="300"
+                />
+                <p class="jump-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">Screen Illustrations</h3>
+                <p class="portfolio-item-text">Design</p>
+              </div>
+            </li>
+
+            <!-- ================= PORTFOLIO ITEM 6 ================= -->
+            <li class="portfolio-item">
+              <div class="portfolio-jump">
+                <img
+                  class="portfolio-img"
+                  src="./images/hw2-portfolio-6photo.jpg"
+                  alt="Online Courses"
+                  width="360"
+                  height="300"
+                />
+                <p class="jump-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">Online Courses</h3>
+                <p class="portfolio-item-text">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="page-footer">
+      <div class="footer-container">
+        <!-- Лівий блок -->
+        <div class="footer-box">
+          <a class="footer-logo" href="./index.html">
+            web<span class="webstudio">Studio</span>
+          </a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+
+        <!-- Правий блок (соцмережі) -->
+        <div class="footer-social">
+          <p class="social-media">Social media</p>
+          <ul class="social-list">
+            <li class="social-items">
+              <a href="#" class="social-linl">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a href="#" class="social-linl">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a href="#" class="social-linl">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a href="#" class="social-linl">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- блок введення email -->
+        <div class="emeil-footer">
+          <p class="subscribe">Subscribe</p>
+          <form class="input-list-footer">
+            <label class="email-label" for="footer-email">
+              <input
+                type="email"
+                class="form-input"
+                name="email"
+                id="footer-email"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button class="subscribe-footer" type="submit" name="submit">
+              Subscribe
+              <svg class="icon-telegram" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- модалка-вікно is-open -->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="element-close-backdrop" type="button" name="close">
+          <svg class="icon-backdrop" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="text-backdrop">
+          Leave your contacts and we will call you back
+        </p>
+        <form>
+          <div class="div-name">
+            <label class="label-name" for="user-name"> Name </label>
+            <div class="input-box-back">
+              <input
+                class="input-back"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+
+              <svg class="icon-name" width="18" height="24">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="div-name">
+            <label class="label-name" for="tel"> Phone </label>
+            <div class="input-box-back">
+              <input class="input-back" type="text" name="user-name" id="tel" />
+
+              <svg class="icon-name" width="18" height="24">
+                <use href="./images/icons.svg#icon-call"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="div-name">
+            <label class="label-name" for="email"> Email </label>
+            <div class="input-box-back">
+              <input
+                class="input-back"
+                type="text"
+                name="user-name"
+                id="email"
+              />
+
+              <svg class="icon-name" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="input-box-back textareamarg">
+            <label class="label-name" for="user-comment"> Comment </label>
+            <textarea
+              class="text-area"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <div class="check-block">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+              required
+            />
+
+            <label class="text-back-form" for="user-privacy">
+              <span class="custom-checkbox">
+                <svg class="icon-custom" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use></svg
+              ></span>
+
+              I accept the terms and conditions of the
+              <a
+                class="privacy-link"
+                href="/privacy-policy.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="highlight">Privacy Policy</span>
+              </a>
+            </label>
+          </div>
+
+          <button class="send-btn" type="button">Send</button>
+
+          <!-- -->
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
